@@ -4,7 +4,6 @@
 #pragma once
 
 
-#include "driver/i2c.h"
 #include "esp_lcd_touch.h"
 #include "esp_lcd_panel_io.h"
 #include "esp_lcd_panel_vendor.h"
