@@ -4,7 +4,7 @@
 # The following lines of boilerplate have to be in your project's
 # CMakeLists in this exact order for cmake to work correctly
 # The set() commands should be placed after the cmake_minimum(...) line but before the include(...) line.
-cmake_minimum_required(VERSION 3.5)
+cmake_minimum_required(VERSION 3.22)
 
 # Set usual component variables
 set(app_sources
