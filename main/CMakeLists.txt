@@ -9,6 +9,7 @@ cmake_minimum_required(VERSION 3.22)
 # Set usual component variables
 set(app_sources
     "main.cpp"
+    "ui.cpp"
 )
 
 set(app_include_dirs
