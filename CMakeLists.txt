@@ -4,7 +4,6 @@
 # The following lines of boilerplate have to be in your project's
 # CMakeLists in this exact order for cmake to work correctly
 # The set() commands should be placed after the cmake_minimum(...) line but before the include(...) line.
-#cmake_minimum_required(VERSION 3.5)
 cmake_minimum_required(VERSION 3.22)
 
 # # ---------- setări generale de compilare -------------
@@ -67,7 +66,7 @@ idf_build_set_property(MINIMAL_BUILD ON)
 
 ##################################################
 # ---------- final magic PROJECT -------------
-project(ESP32-S3-TOUCH-LCD-2.8-IDF-v5.X C CXX ASM)
+project(ESP32-S3-TOUCH-LCD-2.8-IDF-v6.X C CXX ASM)
 ##################################################
 
 # # Set compile options to disable warnings as errors in IDF build
